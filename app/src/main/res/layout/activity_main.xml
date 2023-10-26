@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:text="Menú" />
+
+            <Button
+                android:id="@+id/btn_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LinearLayout" />
+
+            <Button
+                android:id="@+id/btn_frame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FrameLayout" />
+
+            <Button
+                android:id="@+id/btn_relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RelativeLayout" />
+
+            <Button
+                android:id="@+id/btn_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TableLayout" />
+
+            <Button
+                android:id="@+id/btn_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GridLayout" />
+
+            <Button
+                android:id="@+id/btn_constraint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ConstraintLayout" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
