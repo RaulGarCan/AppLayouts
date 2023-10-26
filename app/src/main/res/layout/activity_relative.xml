@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityRelative">
+
+    <ImageView
+        android:id="@+id/iv_usuario"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/avatar1_chico"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/tv_nombreusuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/iv_usuario"
+        android:layout_centerHorizontal="true"
+        android:text="Nombre de Usuario" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_below="@+id/tv_nombreusuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo Electrónico" />
+
+    <ListView
+        android:id="@+id/lv_modulos"
+        android:layout_below="@+id/tv_email"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/btn_volver"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/cerrar" />
+</RelativeLayout>

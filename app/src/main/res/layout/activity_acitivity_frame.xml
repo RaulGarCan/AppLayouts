@@ -32,4 +32,12 @@
         android:background="@drawable/pause_24"
         android:visibility="invisible"
         android:contentDescription="Icono pause"/>
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="center"
+        android:layout_gravity="bottom|end"
+        android:contentDescription="Icono atrás"
+        android:background="@drawable/back_24" />tools
 </FrameLayout>

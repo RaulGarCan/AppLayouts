@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">AppLayouts</string>
+    <string-array name="lista_modulos">
+        <item>Sistemas informáticos</item>
+        <item>Bases de Datos</item>
+        <item>Programación</item>
+        <item>Lenguaje de Marcas</item>
+        <item>Entornos de Desarrollo</item>
+        <item>Formación y Orientación Laboral</item>
+        <item>Programación de Servicios y Procesos</item>
+        <item>Acceso a Datos</item>
+        <item>Desarrollo de Interfaces</item>
+        <item>Sistemas de Gestión Empresarial</item>
+        <item>Programación Multimedia y dispositivos móviles</item>
+        <item>Empresa e Iniciativa Emprendedora</item>
+    </string-array>
 </resources>
