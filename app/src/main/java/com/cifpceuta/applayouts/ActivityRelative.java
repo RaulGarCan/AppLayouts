@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class ActivityRelative extends AppCompatActivity {
 
@@ -29,6 +31,13 @@ public class ActivityRelative extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 volver(view);
+            }
+        });
+
+        lvModulos.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Toast.makeText(view.getContext(),lvModulos.getAdapter().getItem(i).toString(), Toast.LENGTH_SHORT).show();
             }
         });
     }
