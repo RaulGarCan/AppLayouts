@@ -15,7 +15,7 @@ public class AcitivityFrame extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_acitivity_frame);
+        setContentView(R.layout.activity_frame);
 
         videoView = findViewById(R.id.videoView);
         btnPlay = findViewById(R.id.btn_play);
@@ -46,13 +46,6 @@ public class AcitivityFrame extends AppCompatActivity {
                 botonAtras(view);
             }
         });
-    }
-    public void reproduccionVideo(View v){
-        if(videoView.isPlaying()){
-            videoView.pause();
-        } else {
-            videoView.start();
-        }
     }
     public void botonAtras(View v){
         startActivity(new Intent(this, MainActivity.class));

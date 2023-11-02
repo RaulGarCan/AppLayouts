@@ -39,5 +39,5 @@
         android:scaleType="center"
         android:layout_gravity="bottom|end"
         android:contentDescription="Icono atrás"
-        android:background="@drawable/back_24" />tools
+        android:background="@drawable/back_24" />
 </FrameLayout>

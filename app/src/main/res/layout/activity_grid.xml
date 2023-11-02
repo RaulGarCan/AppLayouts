@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityGrid">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="Mis Compañeros" />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:columnCount="4">
+
+        <ImageView
+            android:id="@+id/imageView1_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar1_chico" />
+
+        <ImageView
+            android:id="@+id/imageView1_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar2_chica" />
+
+        <ImageView
+            android:id="@+id/imageView1_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar3_chico" />
+
+        <ImageView
+            android:id="@+id/imageView1_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar4_chica" />
+        <ImageView
+            android:id="@+id/imageView2_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar1_chico" />
+
+        <ImageView
+            android:id="@+id/imageView2_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar2_chica" />
+
+        <ImageView
+            android:id="@+id/imageView2_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar3_chico" />
+
+        <ImageView
+            android:id="@+id/imageView2_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar4_chica" />
+        <ImageView
+            android:id="@+id/imageView3_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar1_chico" />
+
+        <ImageView
+            android:id="@+id/imageView3_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar2_chica" />
+
+        <ImageView
+            android:id="@+id/imageView3_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar3_chico" />
+
+        <ImageView
+            android:id="@+id/imageView3_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar4_chica" />
+        <ImageView
+            android:id="@+id/imageView4_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar1_chico" />
+
+        <ImageView
+            android:id="@+id/imageView4_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar2_chica" />
+
+        <ImageView
+            android:id="@+id/imageView4_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar3_chico" />
+
+        <ImageView
+            android:id="@+id/imageView4_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar4_chica" />
+    </GridLayout>
+    <Button
+        android:id="@+id/btn_grid_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Volver" />
+</LinearLayout>

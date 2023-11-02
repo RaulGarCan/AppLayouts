@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btnLinear, btnFrame, btnRelative, btnTable;
+    private Button btnLinear, btnFrame, btnRelative, btnTable, btnGrid;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         btnFrame = findViewById(R.id.btn_frame);
         btnRelative = findViewById(R.id.btn_relative);
         btnTable = findViewById(R.id.btn_table);
+        btnGrid = findViewById(R.id.btn_grid);
         btnLinear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,6 +43,12 @@ public class MainActivity extends AppCompatActivity {
                 btnTable(view);
             }
         });
+        btnGrid.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnGrid(view);
+            }
+        });
     }
     private void botonLinear(View v){
         Intent i = new Intent(this,ActivityLinear.class);
@@ -55,5 +62,8 @@ public class MainActivity extends AppCompatActivity {
     }
     private void btnTable(View v){
         startActivity(new Intent(this, ActivityTable.class));
+    }
+    private void btnGrid(View v){
+        startActivity(new Intent(this,ActivityGrid.class));
     }
 }
